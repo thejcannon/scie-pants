@@ -1,4 +1,6 @@
 [GLOBAL]
+# NB: When bumping this you also need to update the `pex` information in `package/pbt.toml`.
+# Run the integration tests to ensure everything works as expected: `cargo run -p package -- test`.
 pants_version = "2.16.0"
 
 backend_packages = [
